@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Golden House – Luxury Wedding Venue</title>
+<link rel="stylesheet" href="/backend/style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#"><em>Golden</em> House</a>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#offers">Packages</a></li>
+    <li><a href="#contact">Book Now</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <div class="hero-tag">Luxury Wedding Venue &middot; Est. 2010</div>
+    <h1>Where Love<br>Becomes <em>Golden</em></h1>
+    <p class="hero-sub">Unforgettable ceremonies crafted with elegance &amp; devotion</p>
+    <div class="hero-cta">
+      <a href="#offers" class="btn-gold">View Packages</a>
+      <a href="#contact" class="btn-outline">Book a Tour</a>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="inner">
+        <div><div class="stat-num">500+</div><div class="stat-label">Dream Weddings</div></div>
+        <div style="width:40px;height:1px;background:rgba(201,168,76,0.3)"></div>
+        <div><div class="stat-num">14</div><div class="stat-label">Years of Excellence</div></div>
+        <div style="width:40px;height:1px;background:rgba(201,168,76,0.3)"></div>
+        <div><div class="stat-num">4.9★</div><div class="stat-label">Average Rating</div></div>
+      </div>
+    </div>
+    <div class="about-text reveal" style="transition-delay:0.2s">
+      <div class="section-tag">Our Story</div>
+      <h2 class="section-title">A Place Built for <em>Forever</em></h2>
+      <div class="divider"></div>
+      <p>Golden House is more than a venue — it is where lifelong stories begin. Nestled in a grand estate surrounded by lush gardens and gilded halls, we have been crafting extraordinary weddings since 2010.</p>
+      <p>Every detail is orchestrated with care: from the sweeping ballroom adorned with crystal chandeliers to the intimate garden ceremonies at sunset. Our team ensures your special day is nothing short of perfection.</p>
+      <p>We offer bespoke packages tailored to every vision, every culture, and every budget — because every love story is unique.</p>
+      <a href="#offers" class="btn-gold" style="margin-top:1rem;display:inline-block">Explore Packages</a>
+    </div>
+  </div>
+</section>
+
+<div class="gallery-strip">
+  <div><span>🌹</span><span class="glabel">Gardens</span></div>
+  <div><span>✨</span><span class="glabel">Ballroom</span></div>
+  <div><span>🕯️</span><span class="glabel">Ceremony</span></div>
+  <div><span>🍾</span><span class="glabel">Reception</span></div>
+  <div><span>🌿</span><span class="glabel">Outdoor</span></div>
+</div>
+
+<section class="offers" id="offers">
+  <div class="offers-header reveal">
+    <div class="section-tag">Curated Packages</div>
+    <h2 class="section-title">Choose Your <em>Dream Day</em></h2>
+    <div class="divider" style="margin:1rem auto"></div>
+    <p style="color:var(--muted);font-size:0.88rem;line-height:1.8">Each package is fully customizable. Prices are starting points — we tailor everything to your vision.</p>
+  </div>
+  <div class="offers-grid">
+
+    <div class="offer-card reveal">
+      <div class="offer-icon">🌿</div>
+      <div class="offer-name">Silver Garden</div>
+      <div class="offer-desc">An elegant outdoor ceremony for intimate gatherings with breathtaking garden views.</div>
+      <div class="offer-price"><span>From </span>$2,500</div>
+      <div class="offer-billing">Starting Price &middot; Up to 80 Guests</div>
+      <ul>
+        <li>Garden ceremony space (4 hrs)</li>
+        <li>Basic floral arrangements</li>
+        <li>Chairs &amp; setup included</li>
+        <li>Dedicated coordinator</li>
+        <li>Changing room access</li>
+      </ul>
+      <button class="btn-book" onclick="scrollToContact()">Book This Package</button>
+    </div>
+
+    <div class="offer-card featured reveal" style="transition-delay:0.15s">
+      <div class="offer-badge">Most Popular</div>
+      <div class="offer-icon">👑</div>
+      <div class="offer-name">Golden Elegance</div>
+      <div class="offer-desc">Our signature full-day experience in the grand ballroom with everything you need.</div>
+      <div class="offer-price"><span>From </span>$6,800</div>
+      <div class="offer-billing">Starting Price &middot; Up to 200 Guests</div>
+      <ul>
+        <li>Grand ballroom (full day)</li>
+        <li>Luxury floral &amp; décor</li>
+        <li>5-course gourmet dinner</li>
+        <li>Live music coordination</li>
+        <li>Photography suite access</li>
+        <li>Bridal suite &amp; groom room</li>
+        <li>Premium open bar (5 hrs)</li>
+      </ul>
+      <button class="btn-book" onclick="scrollToContact()">Book This Package</button>
+    </div>
+
+    <div class="offer-card reveal" style="transition-delay:0.3s">
+      <div class="offer-icon">💎</div>
+      <div class="offer-name">Platinum Royale</div>
+      <div class="offer-desc">The ultimate all-inclusive luxury experience across our entire estate, entirely yours.</div>
+      <div class="offer-price"><span>From </span>$14,000</div>
+      <div class="offer-billing">Starting Price &middot; Up to 500 Guests</div>
+      <ul>
+        <li>Exclusive full venue buyout</li>
+        <li>Master floral designer</li>
+        <li>Private chef &amp; 7-course menu</li>
+        <li>Live band + DJ</li>
+        <li>Fireworks display</li>
+        <li>Luxury transport arranged</li>
+        <li>Overnight honeymoon suite</li>
+        <li>Dedicated 3-person team</li>
+      </ul>
+      <button class="btn-book" onclick="scrollToContact()">Book This Package</button>
+    </div>
+
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="testimonials-header reveal">
+    <div class="section-tag">Love Stories</div>
+    <h2 class="section-title">Couples Who Said <em>Yes</em> Here</h2>
+    <div class="divider" style="margin:1rem auto"></div>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="testi-text">Golden House exceeded every expectation. From the first consultation to the last dance, we felt like royalty. Our guests are still talking about it months later.</div>
+      <div class="testi-author">— Sarah &amp; James, 2024</div>
+    </div>
+    <div class="testi-card reveal" style="transition-delay:0.15s">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="testi-text">The team handled everything flawlessly. The ballroom is breathtaking, the food was incredible, and our coordinator was an absolute angel. Pure magic.</div>
+      <div class="testi-author">— Leila &amp; Ahmed, 2024</div>
+    </div>
+    <div class="testi-card reveal" style="transition-delay:0.3s">
+      <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+      <div class="testi-text">We chose the Golden Elegance package and it was worth every penny. The garden photos alone made everyone cry. We would do it all over again in a heartbeat.</div>
+      <div class="testi-author">— Maria &amp; Carlos, 2025</div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-grid">
+
+    <div class="contact-info reveal">
+      <div class="section-tag">Get in Touch</div>
+      <h2 class="section-title">Begin Your <em>Journey</em></h2>
+      <div class="divider"></div>
+      <p>Ready to plan the wedding of your dreams? Reach out directly — our consultants are available every day to guide you through your perfect package and schedule a private venue tour.</p>
+      <div class="contact-methods">
+        <div class="contact-method">
+          <div class="method-icon">📞</div>
+          <div>
+            <div class="method-label">Phone</div>
+            <div class="method-value"><a href="tel:+21612345678">+216 12 345 678</a></div>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">✉️</div>
+          <div>
+            <div class="method-label">Email</div>
+            <div class="method-value"><a href="mailto:hello@goldenhouse.com">hello@goldenhouse.com</a></div>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">📍</div>
+          <div>
+            <div class="method-label">Address</div>
+            <div class="method-value">12 Rose Avenue, Grand Estate, Tunis</div>
+          </div>
+        </div>
+        <div class="contact-method">
+          <div class="method-icon">🕐</div>
+          <div>
+            <div class="method-label">Hours</div>
+            <div class="method-value">Mon–Sat &middot; 9:00 AM – 7:00 PM</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" style="transition-delay:0.2s">
+      <div class="section-tag" style="color:var(--gold)">Reserve Your Date</div>
+      <p style="color:rgba(250,246,238,0.5);font-size:0.87rem;line-height:1.85;margin:0.6rem 0 1.8rem">
+        Simply call or email us to start planning. Our team will prepare a personalised quote and walk you through every detail of your chosen package.
+      </p>
+
+      <div class="book-cta-cards">
+
+        <a href="tel:+21612345678" class="book-cta-card" id="ctaPhone">
+          <div class="cta-icon">📞</div>
+          <div>
+            <div class="cta-label">Call Us Now</div>
+            <div class="cta-value">+216 12 345 678</div>
+            <div class="cta-hint">Mon–Sat &middot; 9:00 AM – 7:00 PM</div>
+          </div>
+          <div class="cta-arrow">&#8594;</div>
+        </a>
+
+        <a href="mailto:hello@goldenhouse.com" class="book-cta-card" id="ctaEmail">
+          <div class="cta-icon">✉️</div>
+          <div>
+            <div class="cta-label">Email Us</div>
+            <div class="cta-value">hello@goldenhouse.com</div>
+            <div class="cta-hint">We reply within 24 hours</div>
+          </div>
+          <div class="cta-arrow">&#8594;</div>
+        </a>
+
+        <div class="book-cta-card no-link" id="ctaAddress">
+          <div class="cta-icon">📍</div>
+          <div>
+            <div class="cta-label">Visit Our Venue</div>
+            <div class="cta-value">12 Rose Avenue, Grand Estate</div>
+            <div class="cta-hint">Tunis, Tunisia &middot; Free tours available</div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="book-note">
+        ✦ Mention your preferred package when you reach out — we'll have a personalised quote ready for you right away.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">&#10022; Golden House</div>
+  <div class="footer-copy">&#169; 2025 Golden House Wedding Venue. All rights reserved.</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#offers">Packages</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<script>
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+    setTimeout(() => {
+      ['ctaPhone', 'ctaEmail', 'ctaAddress'].forEach((id, i) => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        setTimeout(() => {
+          el.classList.remove('pulse');
+          void el.offsetWidth;
+          el.classList.add('pulse');
+        }, i * 150);
+      });
+    }, 750);
+  }
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
